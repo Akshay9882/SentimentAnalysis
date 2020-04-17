@@ -374,16 +374,16 @@ source('server.r')
 3.  On clicking “Download Tweets” button all the tweets corresponding to tags
     specified in CSV file are downloaded.
 
-![C:\\Users\\user\\Desktop\\d\\1.bmp](media/4e46480f76c7855febf27b535da0ea99.png)
+ ![alt text](https://github.com/Akshay9882/SentimentAnalysis/blob/master/readme_images/1.jpg)
 
 **File Dialog Box:**
 
-![C:\\Users\\user\\Desktop\\d\\2.bmp](media/09fe09819ed1beef80c6f4f929942916.png)
+ ![alt text](https://github.com/Akshay9882/SentimentAnalysis/blob/master/readme_images/2.jpg)
 
 **Once the CSV file is selected its tags are read and the status of progress bar
 changes to Upload complete.**
 
-![C:\\Users\\user\\Desktop\\d\\3.bmp](media/9a5a1a0ea1d25db4c120859630d214bb.png)
+ ![alt text](https://github.com/Akshay9882/SentimentAnalysis/blob/master/readme_images/3.jpg)
 
 **Now, We can analyze the data that exists in MongoDB database.**
 
@@ -404,7 +404,7 @@ In the below output there are four hash-tags present in MongoDB database
 The no. of tweets present for each hash-tag is also displayed. All tags here
 have 500 tweets. i.e 500 rows for each hash-tag
 
-![C:\\Users\\user\\Desktop\\d\\4.bmp](media/754b498066447ca58ab76580ef122cec.png)
+ ![alt text](https://github.com/Akshay9882/SentimentAnalysis/blob/master/readme_images/4.jpg)
 
 **Histogram Explanation:**
 
