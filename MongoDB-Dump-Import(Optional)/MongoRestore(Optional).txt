@@ -1,0 +1,27 @@
+#Only if you want to analyze and don't want to download new tweets then use import
+
+
+#All below command to be typed in windows CMD prompt
+#Go to path where MongoDB is installed
+	WIN-CMD>cd C:\Program Files\MongoDB\Server\4.2\bin
+#Check if MongoDB can be connected
+	WIN-CMD> mongo.exe
+
+
+#Exported dump is in folder SentimentAnalysis\MongoDB-Dump-Import\twitterdump
+#For restoring the dump type below commands:
+	WIN-CMD> cd C:\Program Files\MongoDB\Server\4.2\bin
+#Syntax
+#mongorestore -d db_name  dump_folder_path
+WIN-CMD> mongorestore -d local  C:\Users\Akshay\Documents\SentimentAnalysis\MongoDB-Dump-Import\twitterdump
+
+
+
+
+#Dump is done using below steps mongocompass tool to interact with mongodb database
+
+# On the server run dump, it will create 2 files per collection
+# in ./dump directory:
+# ./dump/my-collection.bson
+# ./dump/my-collection.metadata.json
+WIN-CMD>mongodump -h 127.0.0.1 -d local -c filterstream
