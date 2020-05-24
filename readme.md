@@ -1,10 +1,8 @@
-**SENTIMENT ANALYSIS**
+**Opinion Mining Twitter**
 
 **Introduction:**
 
-The application reads the hashtags from a CSV file and then downloads all tweets
-corresponding to those hashtags. The downloaded data is stored in database and
-then further analyzed.
+The application reads the hashtags from a CSV file and then downloads all tweets corresponding to those hashtags. The downloaded data is stored in database and then further analyzed.
 
 **Tools Used:**
 
@@ -15,6 +13,9 @@ Web browser
 **Language:**
 
 R
+
+**Database:**
+MongoDB
 
 
 **SCREENSHOTS:**
