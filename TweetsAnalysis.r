@@ -62,7 +62,7 @@ ui<-shinyUI(pageWithSidebar(
 mongo <- mongo(collection = "tweets", db = "twitter", url = "mongodb://localhost")
 
 #loading up positive and negative words
-#Checkout the folder SentimentAnalysis on your drive and provide the storage path
+#Checkout the project inside folder SentimentAnalysis on your drive and provide the storage path
 pos <- scan('C:/Users/Akshay/Documents/SentimentAnalysis/Dictionary/positive.txt', what='character', comment.char=';') 
 neg <- scan('C:/Users/Akshay/Documents/SentimentAnalysis/Dictionary/negative.txt', what='character', comment.char=';') 
 
