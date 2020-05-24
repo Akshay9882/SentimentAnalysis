@@ -14,7 +14,7 @@ Web browser
 
 R
 
-**Database:**
+**Database:**  
 MongoDB
 
 
@@ -90,3 +90,10 @@ have 500 tweets. i.e 500 rows for each hash-tag
 
 In the above graph we can say that the “raees” movie has more positive tweets as
 compared to negative tweets.
+
+
+
+**How to Run this application**  
+1. Open R Studio 
+2. Paste TweetsAnalysis.r code into R studio step by step by reading instruction in the file  
+
