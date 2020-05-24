@@ -95,5 +95,5 @@ compared to negative tweets.
 
 **How to Run this application**  
 1. Open R Studio 
-2. Paste TweetsAnalysis.r code into R studio step by step by reading instruction in the file  
+2. Paste code in TweetsAnalysis.r file into R studio step by step by reading instruction in the file  
 
